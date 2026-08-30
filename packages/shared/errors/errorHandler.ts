@@ -1,7 +1,9 @@
 
 import {Request,Response,NextFunction} from "express";
-import { AppError } from "./AppError";
-export function ErrorHandler(
+import { AppError } from "./AppError.js";
+
+
+export function errorHandler(
     err : unknown,
     _req:Request,
     res:Response,

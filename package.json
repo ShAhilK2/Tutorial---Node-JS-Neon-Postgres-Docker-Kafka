@@ -7,7 +7,9 @@
     "apps/*",
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev:auth": "npm run dev -w auth-service"
+  },
   "keywords": [],
   "devDependencies": {
     "tsx": "^4.23.12",
